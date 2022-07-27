@@ -1,0 +1,6 @@
+[book]
+authors = ["Sebastian Böhm"]
+language = "en"
+multilingual = false
+src = "src"
+title = "PULCEO Documentation"

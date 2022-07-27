@@ -1,0 +1,15 @@
+name: PULCEO Docs Production
+
+on:
+  push: 
+    branches: [ main ]
+
+jobs:
+  workflow-build-test-deploy-production:
+    uses: ./.github/workflows/build-test-deploy.yml
+    with:
+      environment: production
+      mdbook_site_url: /production/
+      folder: production
+      target_folder: ''
+      clean_exclude: '**/development'

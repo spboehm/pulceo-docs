@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="BbSLUDR8DMtmdQ_45QDc" name="Page-1">
+        <mxGraphModel dx="2342" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="312" width="540" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;PULCEO&lt;/b&gt;&lt;br&gt;Platform for Universal and Lightweight Cloud-Edge Orchestration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="242" width="540" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Infrastructure Management&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="562" width="500" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;Orchestration&lt;/b&gt; (Deployment, Appliation Placement, Offloading, Onloading, and Scaling, Traffic Routing and Load Balancing, Monitoring, Application Lifecycle Management)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="447" width="500" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;User Management&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="342" width="500" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Latency-aware&lt;br&gt;Application" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.app_for_sharepoint;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="414" width="74.2" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="242" width="230" height="400" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

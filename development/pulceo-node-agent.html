@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>PULCEO Documentation</title>
-        <meta name="robots" content="noindex" />
+        <title>PULCEO Node Agent - PULCEO Documentation</title>
 
 
         <!-- Custom HTML head -->
@@ -84,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="pulceo-node-agent.html">PULCEO Node Agent</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="pulceo-node-agent.html" class="active">PULCEO Node Agent</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -167,29 +166,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
-<h2 id="quickstart"><a class="header" href="#quickstart">Quickstart</a></h2>
-<p>What is PULCEO?</p>
-<p>PULCEO stands for <strong>P</strong>latform for <strong>U</strong>niversal and <strong>L</strong>ightweight <strong>C</strong>loud-Edge <strong>O</strong>rchestration.
-It tackles the challenge to realize latency- and location-aware placements of latency-critical applications in cloud, edge, and IoT environments.
-PULCEO provides a simple and easy-to-use interface to allow every customer to deploy latency-critical applications, only by defining a small set of configuration parameters.
-According to a the of configuration parameters, PULCEO places, offloads, onloads, and scales applications to a distributed infrastructure.
-PULCEO continuously monitors the end-users received Quality of Service (QoS) and takes measures in case of violations.</p>
-<h2 id="publications"><a class="header" href="#publications">Publications</a></h2>
-<ul>
-<li>S. Böhm and G. Wirtz, “Cloud-Edge Orchestration for Smart Cities: A Review of Kubernetes-based Orchestration Architectures”, EAI Endorsed Trans Smart Cities, vol. 6, no. 18, p. e2, May 2022.</li>
-<li>Böhm, S., Wirtz, G. (2022). Towards Orchestration of Cloud-Edge Architectures with Kubernetes. In: , et al. Science and Technologies for Smart Cities. SmartCity 360 2021. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 442. Springer, Cham. <a href="https://doi.org/10.1007/978-3-031-06371-8_14">https://doi.org/10.1007/978-3-031-06371-8_14</a></li>
-<li>Böhm, S., Wirtz, G. (2021). Profiling Lightweight Container Platforms: MicroK8s and K3s in Comparison to Kubernetes. In ZEUS (pp. 65-73).</li>
-<li>Böhm, S., Wirtz, G. (2020). A Quantitative Evaluation Approach for Edge Orchestration Strategies. In: Dustdar, S. (eds) Service-Oriented Computing. SummerSOC 2020. Communications in Computer and Information Science, vol 1310. Springer, Cham. <a href="https://doi.org/10.1007/978-3-030-64846-6_8">https://doi.org/10.1007/978-3-030-64846-6_8</a></li>
-</ul>
-<p>Please find an up-to-date list of publications here: <a href="https://www.researchgate.net/profile/Sebastian-Boehm-6/research">ResearchGate - Sebastian Böhm - Research</a></p>
-<h2 id="further-resources"><a class="header" href="#further-resources">Further Resources</a></h2>
-<ul>
-<li><a href="https://scholar.google.com/citations?user=4RiLaMUAAAAJ&amp;hl=en">Sebastian Böhm - Google Scholar</a></li>
-<li><a href="https://www.uni-bamberg.de/en/pi/research/research-areas/universal-and-lightweight-cloud-edge-iot-orchestration/">Universal and lightweight Cloud-Edge-IoT Orchestration</a></li>
-<li><a href="https://www.uni-bamberg.de/pi/team/boehm-sebastian/">Böhm, Sebastian - Chair of Practical Computer Science</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="pulceo-node-agent-pna"><a class="header" href="#pulceo-node-agent-pna">PULCEO Node Agent (PNA)</a></h1>
+                        <h1 id="pulceo-node-agent-pna"><a class="header" href="#pulceo-node-agent-pna">PULCEO Node Agent (PNA)</a></h1>
 <h2 id="low-level-components"><a class="header" href="#low-level-components">Low-level Components</a></h2>
 <h3 id="iperf3"><a class="header" href="#iperf3">iPerf3</a></h3>
 <p>PULCEO Node Agent (PNA) uses iPerf3 as low-level component for determining the available bandwidth between particular nodes.
@@ -250,6 +227,9 @@ PNA includes both results in a scheduled measurement for transparency and fine-t
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="introduction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
 
                         <div style="clear: both"></div>
@@ -258,6 +238,9 @@ PNA includes both results in a scheduled measurement for transparency and fine-t
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="introduction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
             </nav>
 
@@ -281,11 +264,6 @@ PNA includes both results in a scheduled measurement for transparency and fine-t
 
         <!-- Custom JS scripts -->
 
-        <script>
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
 
     </div>
     </body>

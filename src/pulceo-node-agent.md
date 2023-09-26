@@ -73,7 +73,7 @@ PNA includes both results in a scheduled measurement for transparency and fine-t
 
 #### UDP
 
-For UDP, PNA invokes the following command to start measuring by the client side: `/bin/iperf3 -c localhost -u -p 5001 -b 1M -t 1 -f m`. In UDP mode, iPerf3 targets a bitrate of 1 Mbit/sec, which is implicitly assumed in the already mentioned command. Alternating bitrates can be defined with the option `-b`, for example with `iperf3 -c localhost -u -p 5001 -b 5M -t 10 -f m`. After successfull measuring the bandwidth (by default one measurement per second, 10 seconds in total), iPerf3 shows the following ouput:
+For UDP, PNA invokes the following command to start measuring by the client side: `/bin/iperf3 -c localhost -u -p 5001 -b 1M -t 1 -f m`. In UDP mode, iPerf3 targets a bitrate of 1 Mbit/sec, which is implicitly assumed in the already mentioned command. Alternating bitrates can be defined with the option `-b`, for example with `/bin/iperf3 -c localhost -u -p 5001 -b 5M -t 10 -f m`. After successfull measuring the bandwidth (by default one measurement per second, 10 seconds in total), iPerf3 shows the following ouput:
 
 On the server side:
 

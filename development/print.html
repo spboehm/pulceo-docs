@@ -249,7 +249,7 @@ In good network conditions, both rows are identical. However, they may differ if
 In total, 5 packets were required to retransmit. This mitigates the perceived troughput on the receiver's side, because the receiver had to wait for packet retransmission by the client.
 PNA includes both results in a scheduled measurement for transparency and fine-tuning purposes.</p>
 <h4 id="udp"><a class="header" href="#udp">UDP</a></h4>
-<p>For UDP, PNA invokes the following command to start measuring by the client side: <code>/bin/iperf3 -c localhost -u -p 5001 -b 1M -t 1 -f m</code>. In UDP mode, iPerf3 targets a bitrate of 1 Mbit/sec, which is implicitly assumed in the already mentioned command. Alternating bitrates can be defined with the option <code>-b</code>, for example with <code>iperf3 -c localhost -u -p 5001 -b 5M -t 10 -f m</code>. After successfull measuring the bandwidth (by default one measurement per second, 10 seconds in total), iPerf3 shows the following ouput:</p>
+<p>For UDP, PNA invokes the following command to start measuring by the client side: <code>/bin/iperf3 -c localhost -u -p 5001 -b 1M -t 1 -f m</code>. In UDP mode, iPerf3 targets a bitrate of 1 Mbit/sec, which is implicitly assumed in the already mentioned command. Alternating bitrates can be defined with the option <code>-b</code>, for example with <code>/bin/iperf3 -c localhost -u -p 5001 -b 5M -t 10 -f m</code>. After successfull measuring the bandwidth (by default one measurement per second, 10 seconds in total), iPerf3 shows the following ouput:</p>
 <p>On the server side:</p>
 <pre><code>-----------------------------------------------------------
 Server listening on 5001 (test #1)
